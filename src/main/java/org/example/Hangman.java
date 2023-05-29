@@ -19,7 +19,7 @@ public class Hangman {
 
         String word;
         if (players.equals("1")){
-            Scanner scanner = new Scanner(new File("C:\\Users\\kryst\\Documents\\Coding\\GitHub\\Hangman\\words.txt"));
+            Scanner scanner = new Scanner(new File(""));
 
             List<String> words = new ArrayList<>();
             while (scanner.hasNext()) {
